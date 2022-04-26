@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: o;
+}
+body {
+  background-image: linear-gradient(to bottom right, rgb(99, 211, 149),rgb(192, 162, 162));
+  height: 100vh;
+  text-align: center;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  
+}
+input {
+  /* background-color: transparent; */
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: rgb(53, 51, 51);
+}
+.filter-todo {
+  /* border: 0px solid; */
+    height: 20px;
+    width: 100px;
+    color: rgb(53, 51, 51);
+}
+.todo {
+  display: flex;
+  justify-content: space-around;
+  /* list-style-type: none; */
+  margin-top: .7rem;
+
+}
+.todo-item {
+  display: flex;
+  flex: 1;
+  background-color: white;
+  color: black;
+  /* margin-top: .5rem; */
+  list-style-type: none !important;
+}
+.complet-btn {
+  background-color:rgb(23, 201, 207);
+  outline: none;
+}
+.trash-btn {
+  background-color:orange;
+  outline: none;
+}
+.trash-btn {
+  color: white;
+  outline: none;
+  border: none;
+  
+}
+.fa-check-square {
+  color: white;
+  outline: none;
+  border: none;
+  
+}
+
+.completed {
+  text-decoration: line-through;
+}
